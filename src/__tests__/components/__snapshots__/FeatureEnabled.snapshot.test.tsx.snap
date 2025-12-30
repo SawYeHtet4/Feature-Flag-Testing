@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureEnabled Snapshot Tests should match snapshot when feature is disabled 1`] = `<div />`;
+
+exports[`FeatureEnabled Snapshot Tests should match snapshot when feature is disabled with fallback 1`] = `
+<div>
+  <div
+    class="fallback"
+  >
+    Fallback Content
+  </div>
+</div>
+`;
+
+exports[`FeatureEnabled Snapshot Tests should match snapshot when feature is enabled 1`] = `
+<div>
+  <div
+    class="feature"
+  >
+    Feature Content
+  </div>
+</div>
+`;
+
+exports[`FeatureEnabled Snapshot Tests should match snapshot with inverted logic 1`] = `
+<div>
+  <div
+    class="legacy"
+  >
+    Legacy Content
+  </div>
+</div>
+`;

@@ -1,0 +1,54 @@
+# Code Owners for Feature Flag Testing
+# These owners will be automatically requested for review when someone opens a pull request
+# that modifies files in specific directories or patterns.
+
+# Default owners for everything in the repo
+* @SawYeHtet4
+
+# Core feature flag logic
+/src/lib/featureFlags.ts @SawYeHtet4
+/src/lib/featureFlagHelpers.ts @SawYeHtet4
+/src/lib/murmurhash.ts @SawYeHtet4
+
+# Components
+/src/components/ @SawYeHtet4
+
+# Hooks
+/src/hooks/ @SawYeHtet4
+
+# Tests - require review from test maintainers
+/src/__tests__/ @SawYeHtet4
+**/*.test.ts @SawYeHtet4
+**/*.test.tsx @SawYeHtet4
+**/*.spec.ts @SawYeHtet4
+**/*.spec.tsx @SawYeHtet4
+
+# CI/CD Configuration
+/.github/workflows/ @SawYeHtet4
+/.github/dependabot.yml @SawYeHtet4
+
+# Documentation
+/docs/ @SawYeHtet4
+/README.md @SawYeHtet4
+/CONTRIBUTING.md @SawYeHtet4
+/CHANGELOG.md @SawYeHtet4
+/SECURITY.md @SawYeHtet4
+
+# Configuration files
+/package.json @SawYeHtet4
+/tsconfig.json @SawYeHtet4
+/jest.config.js @SawYeHtet4
+/.eslintrc.json @SawYeHtet4
+/.prettierrc @SawYeHtet4
+
+# Analytics and Audit
+/src/lib/featureFlagAnalytics.ts @SawYeHtet4
+/src/lib/featureFlagAudit.ts @SawYeHtet4
+/src/lib/featureFlagComparison.ts @SawYeHtet4
+
+# Types
+/src/types/ @SawYeHtet4
+
+# Examples and Dashboard
+/src/app/examples/ @SawYeHtet4
+/src/app/dashboard/ @SawYeHtet4

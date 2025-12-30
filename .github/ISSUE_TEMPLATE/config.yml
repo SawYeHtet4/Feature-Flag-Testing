@@ -1,0 +1,25 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/blob/main/README.md
+    about: Check out our comprehensive documentation
+
+  - name: 📚 API Reference
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/blob/main/docs/API.md
+    about: Detailed API documentation for all components and utilities
+
+  - name: 🔄 Migration Guide
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/blob/main/docs/MIGRATION.md
+    about: Guide for migrating from other feature flag systems
+
+  - name: 💬 Discussions
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/discussions
+    about: Ask questions and discuss ideas with the community
+
+  - name: 🔒 Security Issues
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/security/advisories/new
+    about: Report security vulnerabilities privately
+
+  - name: 📊 Examples
+    url: https://github.com/SawYeHtet4/Feature-Flag-Testing/blob/main/src/app/examples/page.tsx
+    about: View example implementations and usage patterns
